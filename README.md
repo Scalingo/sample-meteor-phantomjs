@@ -17,7 +17,7 @@ around the NPM module `phantomjs` which installs the correct binary.
 ```shell
 meteor create spiderable-app
 cd spiderable-app
-meteor add spiderable
+meteor add ongoworks:spiderable
 meteor add dfischer:phantomjs
 
 git init
