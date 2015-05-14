@@ -14,6 +14,10 @@ you have to install it as dependency of your application. The package
 [`dfischer:phantomjs`](https://atmospherejs.com/dfischer/phantomjs) provides a wrapper
 around the NPM module `phantomjs` which installs the correct binary.
 
+Another known issue is that the `spiderable` package is not working correctly in a _dockerized_
+environment: https://github.com/meteor/meteor/issues/2429. Hopefully, the community has developed
+an alternative package which works as expected: `ongoworks:spiderable`
+
 ```shell
 meteor create spiderable-app
 cd spiderable-app
