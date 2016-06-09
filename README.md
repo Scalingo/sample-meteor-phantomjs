@@ -19,8 +19,8 @@ environment: https://github.com/meteor/meteor/issues/2429. Hopefully, the commun
 an alternative package which works as expected: `ongoworks:spiderable`
 
 ```shell
-meteor create spiderable-app
-cd spiderable-app
+meteor create sample-meteor-phantomjs
+cd sample-meteor-phantomjs
 meteor add ongoworks:spiderable
 meteor add dfischer:phantomjs
 
@@ -36,7 +36,7 @@ you'll essentialy see a `<script>` tag including the meteor application
 
 However, if you go to the following URL:
 
-https://spiderable-app.scalingo.io/?_escaped_fragment_=
+https://sample-meteor-phantomjs.scalingo.io/?_escaped_fragment_=
 
 You can see by looking at the generated HTML that PhantomJS has correctly run, the page
 contains the text of the content. Ready to be indexed.
