@@ -1,7 +1,12 @@
-# Sample - Meteor, spiderable and PhantomJS
+# [DEPRECATED] Sample Application with Meteor and PhantomJS
 
 The sample application show how to deploy a __Meteor__ application using PhantomJS
 on the PaaS [__Scalingo__](https://scalingo.com)
+
+## DEPRECATION NOTICE
+
+This sample is currently deprecated and will not be maintained anymore
+because the PhantomJS development is suspended.
 
 ## Context
 
